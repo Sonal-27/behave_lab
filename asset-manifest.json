@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/behave_lab/static/css/main.c158703d.css",
-    "main.js": "/behave_lab/static/js/main.bb906804.js",
+    "main.css": "/behave_lab/static/css/main.b54bab14.css",
+    "main.js": "/behave_lab/static/js/main.cd2189c8.js",
     "static/media/sample2.png": "/behave_lab/static/media/sample2.ad285b51d2ac6cc2e9f6.png",
     "static/media/osf_logo.jpeg": "/behave_lab/static/media/osf_logo.0f2d17b1dcec08c787e7.jpeg",
     "static/media/PsyArXiv_logo.png": "/behave_lab/static/media/PsyArXiv_logo.102b108f4a33dfb6e959.png",
     "index.html": "/behave_lab/index.html",
-    "main.c158703d.css.map": "/behave_lab/static/css/main.c158703d.css.map",
-    "main.bb906804.js.map": "/behave_lab/static/js/main.bb906804.js.map"
+    "main.b54bab14.css.map": "/behave_lab/static/css/main.b54bab14.css.map",
+    "main.cd2189c8.js.map": "/behave_lab/static/js/main.cd2189c8.js.map"
   },
   "entrypoints": [
-    "static/css/main.c158703d.css",
-    "static/js/main.bb906804.js"
+    "static/css/main.b54bab14.css",
+    "static/js/main.cd2189c8.js"
   ]
 }
