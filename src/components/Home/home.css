@@ -1,0 +1,27 @@
+
+.alignment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+  .home-grid-container {
+    display: grid;
+    gap: 0px; /* Adjust the gap between grid items */
+    justify-content: center; /* Center the grid horizontally */
+  }
+  
+  .home-grid-item {
+    padding: 0px; /* Add padding to create space around each item */
+    border:20px solid rgb(255, 255, 255); /* Add a subtle border for separation */
+    background-color: #ffffff; /* Add a light background color */
+    text-align: justify; /* Align text to the left within each item */
+    border-radius: 10px; /* Add rounded corners for a modern look */
+  }
+  
+  /* Center the h3 and p text within each grid item */
+  .home-grid-item h2, .home-grid-item p {
+    text-align: center;
+    margin: 0; /* Remove default margins for a cleaner look */
+  }
+  

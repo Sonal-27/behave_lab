@@ -1,0 +1,31 @@
+.grid-container {
+    display: grid;
+    gap: 0px; /* Adjust the gap between grid items */
+    justify-content: center; /* Center the grid horizontally */
+  }
+  
+  .grid-item {
+    border: 20px solid rgb(255, 255, 255); /* Add a subtle border for separation */
+    background-color: #ffffff; /* Add a light background color */
+    text-align: justify; /* Align text to the left within each item */
+    border-radius: 10px; /* Add rounded corners for a modern look */
+  }
+  
+  .grid-item h3,
+  .grid-item p {
+    text-align: center;
+    margin: 0; /* Remove default margins for a cleaner look */
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Switch to a single column layout */
+    }
+  
+    .grid-item {
+      padding: 15px; /* Adjust padding for smaller screens */
+      border-width: 10px; /* Adjust border width for smaller screens */
+    }
+  }
+  

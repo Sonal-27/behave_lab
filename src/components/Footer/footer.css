@@ -1,0 +1,19 @@
+/* Add background styles */
+.footer {
+    height: 5rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #e7e7e7;
+}
+.alignment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

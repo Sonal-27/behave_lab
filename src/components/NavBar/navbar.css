@@ -1,0 +1,113 @@
+.navbar {
+    height: 8rem;
+    width: 100vw;
+    margin: 0 auto;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: #e8f3f6; /* navbar bg*/
+}
+.alignment{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo {
+    object-fit: cover;
+    height: 4rem;
+    width: 4rem;
+}
+.navbar-title{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 87px;
+    padding: 1.6em 1.4em;
+}
+.container h2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desktopMenuListItem {
+    margin: 1rem;
+    cursor: pointer;
+}
+.custom-link {
+    text-decoration: none; /* Remove underline */
+    color: rgb(0, 0, 0); /* Set the text color to red */
+    /* Add more styling if needed */
+}
+ 
+.desktopMenuListItem:hover {
+    color: rgb(153, 153, 153);
+    background-color: transparent;
+    padding-bottom: 0.5rem;
+    border-bottom: 3px solid rgb(4, 4, 4);
+    }
+.desktopMenuBtn{
+    background: rgb(246, 243, 243);
+    color: rgb(251, 251, 251);
+    border: none;
+    display: flex;
+    align-items: center;
+}
+.desktopMenuBtn:hover {
+    color: black;
+    padding-bottom: 0.5 rem;
+    border-bottom: 3px solid rgb(9, 9, 9);
+    }
+    /* Media query for mobile layout */
+
+
+
+/* Responsive layout using relative units */
+@media screen and (max-width: 768px) {
+    .navbar {
+        height: auto;
+        padding: 1rem 2vw; /* Use relative units for padding */
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        height: 10vw; /* Use relative units for logo size */
+        width: 10vw;
+    }
+
+    .desktopMenuListItem {
+        margin: 1rem;
+    }
+
+    /* Add responsive styles for the mobile layout */
+    .custom-link {
+        color: #111; /* Adjust text color as needed */
+    }
+
+    .desktopMenuListItem:hover {
+        color: #777;
+        background-color: transparent;
+        padding-bottom: 0.5rem;
+        border-bottom: 3px solid black;
+    }
+
+    .desktopMenuBtn {
+        background: #f9f6f6; /* Adjust background color as needed */
+        color: #090909; /* Adjust text color as needed */
+    }
+
+    .desktopMenuBtn:hover {
+        color: black;
+        padding-bottom: 0.5rem;
+        border-bottom: 3px solid #090909;
+    }
+}

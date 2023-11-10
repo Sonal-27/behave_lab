@@ -1,0 +1,46 @@
+
+.grid-container {
+    display: grid;
+    gap: 0px; /* Adjust the gap between grid items */
+    justify-content: center; /* Center the grid horizontally */
+  }
+  
+  .grid-item {
+    padding: 0px; /* Add padding to create space around each item */
+    border:20px solid rgb(255, 255, 255); /* Add a subtle border for separation */
+    background-color: #ffffff; /* Add a light background color */
+    text-align: justify; /* Align text to the left within each item */
+    border-radius: 10px; /* Add rounded corners for a modern look */
+  }
+  
+  /* Center the h3 and p text within each grid item */
+  .grid-item h3, .grid-item h2, .grid-item p {
+    text-align: center;
+    margin: 0; /* Remove default margins for a cleaner look */
+  }
+/* Style the links within the grid items */
+.grid-item a {
+  text-decoration: none;
+  color: #007bff; /* Use a blue link color */
+}
+
+/* Style the links on hover for better user feedback */
+.grid-item a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+.cover {
+  display: grid;
+  gap: 0px; /* Adjust the gap between grid items */
+  justify-content: center; /* Center the grid horizontally */
+}
+
+/* Set a fixed size for the images */
+.grid-item img {
+  width: 5%; /* Set the desired width */
+  height: 5%; /* Set the desired height */
+  object-fit: cover; /* Maintain aspect ratio and cover the specified dimensions */
+  vertical-align: middle; /* Align the image vertically in the container */
+}
+
+
